@@ -42,12 +42,14 @@ File4 <- read_xlsx("data/UN_country_region.xlsx")
 ```{r join-data, message = FALSE}
 # Member 2 (pair 1) write code to create object 'plastic_data_all':
 
-plastic_data_all <- data1
+plastic_data_all <- file1
 
 
 # Member 4 (pair 2) write code to join your data to 'plastic_data_all':
 
-
+plastic_data_all <- file %>%
+  select(-name) %>%
+  left_join(plastic_data_all, by = "code")
 
 
 # Member 6 (pair 3) write code to join your data to 'plastic_data_all':
