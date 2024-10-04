@@ -25,6 +25,7 @@ library(readxl)
 
 
 # Member 6 (pair 3) write code to load File 3 data here:
+file_3 <- read_tsv("data/UN_country_population.tsv")
 
 
 
