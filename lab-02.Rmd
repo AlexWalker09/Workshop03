@@ -1,6 +1,6 @@
 ---
 title: "Lab 02 - Global plastic waste"
-author: "DataDemons: Roderick, Andrew, Ross, Mark, Alex"
+author: "DataDemon: Roderick, Andrew, Ross, Mark, Alex"
 date: "`r Sys.Date()`"
 output: html_document
 ---
